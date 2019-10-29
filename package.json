@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-svg-sprite": "^1.3.7"
+  },
+  "name": "lc-icon-system",
+  "version": "1.0.0",
+  "description": "Logistics Cluster Icon System",
+  "main": "index.js",
+  "author": "Logistics Cluster",
+  "license": "MIT"
+}
