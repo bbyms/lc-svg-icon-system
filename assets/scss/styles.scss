@@ -1,0 +1,40 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald&display=swap');
+
+
+@import "variables";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@mixin fill-emphasis-variant($parent, $color) {
+	#{$parent} {
+	  fill: $color !important;
+	}
+  }
+
+@each $color, $value in $theme-colors {
+	@include fill-emphasis-variant(".fill-#{$color}", $value);
+  }
+
+.fill-white {
+	fill: $white !important;
+}
+
+body {
+	background-color: $primary;
+	color: $white;
+
+	.container {
+		height: 100vh;
+	}
+
+	svg {
+		height: 30px;
+		width: 30px;
+		margin: 30px;
+	}
+}
+
+

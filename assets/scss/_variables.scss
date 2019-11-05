@@ -1,0 +1,19 @@
+$lc-red: #c0392b;
+$lc-blue: #34495e;
+$preparedness: #26A69A;
+
+$primary:       $lc-red;
+$secondary:     $lc-blue;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:      "Open Sans" ,"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, BlinkMacSystemFont;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif;
+$font-family-heading:	      "Oswald" ,"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$headings-font-family:        $font-family-heading;
+
+$input-btn-font-family:       $font-family-heading;
